@@ -1387,7 +1387,7 @@ l = {
                             EN: "Glow",
                             FR: "Brillant",
                             DE: "Leuchten",
-                            CN: "发光",
+                            CN: "辉光",
                         },
                         antique: {
                             KR: "앤틱",
@@ -1395,7 +1395,7 @@ l = {
                             EN: "Antique",
                             FR: "Antique",
                             DE: "Antik",
-                            CN: "古董",
+                            CN: "旧式",
                         },
                         frame: {
                             KR: "프레임",
@@ -1403,7 +1403,7 @@ l = {
                             EN: "Frame",
                             FR: "Cadre",
                             DE: "Rahmen",
-                            CN: "帧",
+                            CN: "金属边框",
                         },
                         gear: {
                             KR: "기어",
@@ -1411,7 +1411,7 @@ l = {
                             EN: "Gear",
                             FR: "Equipement",
                             DE: "Zahnrad",
-                            CN: "齿轮",
+                            CN: "套装图标",
                         },
                         black: {
                             KR: "칠흑색",
