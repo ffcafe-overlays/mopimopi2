@@ -21,6 +21,10 @@ $().ready(function() {
     init = JSON.parse(localStorage.getItem("Mopi2_HAERU"))
     addOption()
     lang = init.q.Lang 
+    if (init.q.iconSet === 'colorful') {
+        // who the fuck adds colorful to mopimopi2?
+        init.q.iconSet = 'glow'
+    }
     initOverlay()
 });
 function addOption() {
