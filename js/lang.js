@@ -5,12 +5,12 @@ l = {
             EN: '<b style="color:#ffea00">MopiMopi<br>Experience the Incredible Customizing!</b><br><br><b>Chrome or Safari</b> apps are recommended for mobile environment.<br>PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.<br><br><font style="color:cyan">If you are using FFXIV_ACT_Plugin version 2.0.2.3 or later,<br>ACT → Plugins → FFXIV Settings Tab → <b>Check Disable Combine Pets with Owner</b>.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>'
         },
         tip: {
-            KR: '[OFFICIAL] MopiMopi ver.210401 / 해루@모그리',
-            EN: '[OFFICIAL] MopiMopi ver.210401 / HAERU@Moogle (KR)'
+            KR: '[OFFICIAL] MopiMopi ver.20220102 / 해루@모그리',
+            EN: '[OFFICIAL] MopiMopi ver.20220102 / HAERU@Moogle (KR)'
         },
         update: {
-            KR: '<div name="row"><div class="c">04/01</div><div class="m">[Matthew Smith/Gmail] 축약어를 변경함<Br>(RD → Total DPS, RH → Total HPS, MD → My DPS, MH → My HPS)</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2021년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
-            EN: '<div name="row"><div class="c">Apr 1</div><div class="m">[Matthew Smith/Gmail] Change Abbreviations<Br>(RD → Total DPS, RH → Total HPS, MD → My DPS, MH → My HPS)</div></div><div name="row"><div class="n">Jan 1</div><div class="m">★★★ 2021 Best wishes for a Happy New Year! ★★★</div></div>'
+            KR: '',
+            EN: ''
         }
     },
     msg: {
@@ -430,12 +430,12 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi ver.200128',
-                JP: 'MopiMopi ver.200128',
-                EN: 'MopiMopi ver.200128',
-                FR: 'MopiMopi ver.200128',
-                DE: 'MopiMopi ver.200128',
-                CN: "MopiMopi ver.200128",
+                KR: 'MopiMopi ver.20220102',
+                JP: 'MopiMopi ver.20220102',
+                EN: 'MopiMopi ver.20220102',
+                FR: 'MopiMopi ver.20220102',
+                DE: 'MopiMopi ver.20220102',
+                CN: "MopiMopi ver.20220102",
             },
             i: "new_releases",
             e: "li_2line",
@@ -1678,6 +1678,19 @@ l = {
                 e: "li_color",
                 ul: 0
             },
+            SGE: {
+                tt: {
+                    KR: "현자",
+                    JP: "賢者",
+                    EN: "Sage",
+                    FR: "Sage",
+                    DE: "Weise",
+                    CN: "Sage",
+                },
+                i: "<img src='./images/icon/frame/SGE.png'/>",
+                e: "li_color",
+                ul: 0
+            },
             MNK: {
                 tt: {
                     KR: "몽크 & 격투사",
@@ -1727,6 +1740,19 @@ l = {
                     CN: "武士",
                 },
                 i: "<img src='./images/icon/frame/SAM.png'/>",
+                e: "li_color",
+                ul: 0
+            },
+            RPR: {
+                tt: {
+                    KR: "리퍼",
+                    JP: "リーパー",
+                    EN: "Reaper",
+                    FR: "Faucheur",
+                    DE: "Schnitter",
+                    CN: "Reaper",
+                },
+                i: "<img src='./images/icon/frame/RPR.png'/>",
                 e: "li_color",
                 ul: 0
             },
