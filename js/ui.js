@@ -130,8 +130,9 @@ $('#blackBg').unbind("click").bind("click", function() {
     $('.dropdown, #blackBg').fadeOut(0);
     $('.dropdown ul').css('height', '');    
     localStorage.setItem('Mopi2_HAERU', JSON.stringify(init))
-    if (lastCombat != null && view == "main")
-        update(lastDPS, lastHPS)
+    //오버레이가 계속 업데이트되서 히스토리 진입 시 최신 데이터로 덮어씀을 방지
+    //if (lastCombat != null && view == "main")
+    //    update(lastDPS, lastHPS)
 });
 $(window).on("orientationchange", function() {
     resizeWindow(view)
@@ -828,7 +829,8 @@ function button(id, direction) {
                 localStorage.setItem('Mopi2_HAERU', JSON.stringify(init))
                 $('.previewArea, .tabArea, .scrollArea').html('') 
                 if (lastCombat != null) {
-                    update(lastDPS, lastHPS)
+                    //오버레이가 계속 갱신되므로 해당부분 제거
+                    //update(lastDPS, lastHPS)
                     hiddenTable()
                 } else {                    
                     initOverlay()
