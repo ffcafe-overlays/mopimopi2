@@ -550,11 +550,11 @@ function saveLog() {
     if (lastDPS == null)
         return;
     else {
-        if (String(lastCombat.isActive) == "false") {
+        if (String(lastDPS.isActive) == "false") {
             encounterArray.unshift({
                 lastDPS: lastDPS,
                 lastHPS: lastHPS,
-                combatKey: lastCombat.combatKey
+                combatKey: lastDPS.combatKey
             });
             if (encounterArray.length >= 2) {
                 if (encounterArray[1].combatKey == lastDPS.combatKey)
